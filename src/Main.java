@@ -34,6 +34,7 @@ class Main {
         double x4 = scanner.nextDouble(); scanner.nextLine();
         System.out.print("y = ");
         double y4 = scanner.nextDouble(); scanner.nextLine();
+        scanner.close();
 
         //punkt drugi
         Point start2 = new Point(x3,y3);
