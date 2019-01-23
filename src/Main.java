@@ -50,9 +50,9 @@ class Main {
         System.out.println("- długość: " + lineChecker.returnLength(line2) + "\n");
 
         //porównanie:
-        if (lineChecker.returnLonger(line1,line2) == line1)
+        if (lineChecker.giveLonger(line1,line2) == line1)
             System.out.println("Odcinek 1 jest dłuższy.");
-        else if (lineChecker.returnLonger(line1,line2) == line2)
+        else if (lineChecker.giveLonger(line1,line2) == line2)
             System.out.println("Odcinek 2 jest dłuższy.");
         else
             System.out.println("Oba odcinki mają równą długość.");
