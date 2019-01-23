@@ -19,7 +19,7 @@ class Main {
         System.out.print("y = ");
         double y2 = scanner.nextDouble(); scanner.nextLine();
 
-        //punkt pierwszy
+        //odcinek pierwszy - punkt początkowy i końcowy
         Point start1 = new Point(x1,y1);
         Point end1 = new Point(x2,y2);
 
@@ -35,8 +35,8 @@ class Main {
         System.out.print("y = ");
         double y4 = scanner.nextDouble(); scanner.nextLine();
         scanner.close();
-
-        //punkt drugi
+        
+        //odcinek drugi - punkt początkowy i końcowy
         Point start2 = new Point(x3,y3);
         Point end2 = new Point(x4,y4);
 
